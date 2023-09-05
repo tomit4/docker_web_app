@@ -15,5 +15,4 @@ RUN rm -rf node_modules && npm install
 # BUNDLE app source
 COPY . .
 
-EXPOSE 8080
 CMD ["node", "server.js"]
